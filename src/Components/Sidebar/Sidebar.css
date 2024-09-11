@@ -30,4 +30,36 @@
 	width: 25px;
 	border-radius: 50%;
 	margin-right: 20px;
+}.small-sidebar{
+	width: 5%;
+	animation: translateicon 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}.small-sidebar p{
+	display: none;
+}.small-sidebar h3{
+	display: none;
+}.small-sidebar hr{
+	width: 50%;
+	margin-bottom: 25px;
+}.sidebar p{
+	animation: translatep 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}@keyframes translatep{
+	0%{
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0%);
+	}
+}@keyframes translateicon{
+	0%{
+		opacity: 0;
+		transform: translateX(-100%);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0%);
+	}
 }

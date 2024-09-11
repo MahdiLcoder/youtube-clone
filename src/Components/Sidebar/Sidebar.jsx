@@ -70,6 +70,7 @@ function Sidebar({sidebar}) {
 					</div>
 				</div>
 		</div>
+		
 	)
 }
 
