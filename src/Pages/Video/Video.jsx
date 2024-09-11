@@ -3,8 +3,8 @@ import "./Video.css";
 
 function Video(){
 	return(
-		<div>
-		
+		<div className="play-container">
+			
 		</div>
 	)
 }
