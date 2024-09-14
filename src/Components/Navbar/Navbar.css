@@ -17,7 +17,7 @@ nav{
 	padding: 8px 12px;
 	border-radius: 25px;
 }.nav-middle .search-box input{
-	width: 400px;
+	width: 50vw;
 	border: 0;
 	outline: 0;
 	background-color: transparent;
@@ -29,4 +29,18 @@ nav{
 }.nav-rigth .user-icon{
 	width: 35px;
 	border-radius: 50%;
+}@media(max-width:900px){
+	.nav-left .menu-icon{
+    display: none;
+  }
+  .nav-rigth img{
+    display: none;
+  }
+  .nav-rigth .user-icon{
+    display: block;
+		width: 30px;
+  }
+	.logo{
+		width: 90px;
+	}
 }
