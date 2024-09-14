@@ -12,7 +12,7 @@ function App() {
       <Navbar sidebar={sidebar} setSidebar={setSidebar} />
       <Routes>
         <Route path='/' element={<Home sidebar={sidebar} setSidebar={setSidebar} />} />
-        <Route path='/video/:categoryId/:vedioId' element={<Video />} />
+        <Route path='/video/:categoryId/:videoId' element={<Video />} />
       </Routes>
     </>
   )
