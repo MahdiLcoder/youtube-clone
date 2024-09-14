@@ -19,4 +19,8 @@
 .side-video-list .info p{
 	font-size: 12px;
 	color: #5a5a5a;
+}@media(max-width: 900px){
+	.recommended{
+		width: 100%;
+	}
 }
